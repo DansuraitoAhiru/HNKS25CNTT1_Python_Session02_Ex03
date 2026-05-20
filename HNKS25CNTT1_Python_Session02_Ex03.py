@@ -15,9 +15,9 @@ else:   # ko dính bẫy thì mới bắt đầu kiểm tra tuổi và in phiế
         classification = print("ƯU TIÊN: Người cao tuổi - Hỗ trợ xe lăn, chuyển phòng khám Lão khoa.")
     else:
         classification = print("KHÁM THƯỜNG: Vui lòng lấy số thứ tự và chờ tới lượt tại sảnh.")
-
-# in phiếu
-print("--- Phiếu Phiếu khám bệnh điện tử ---") 
-print(f"Tên bệnh nhân: {patient_name}")
-print(f"Tuổi bệnh nhân: {age}")
-print(f"Kết quả phân luồng: {classification}")
+    
+    # in phiếu
+    print("--- Phiếu Phiếu khám bệnh điện tử ---") 
+    print(f"Tên bệnh nhân: {patient_name}")
+    print(f"Tuổi bệnh nhân: {age}")
+    print(f"Kết quả phân luồng: {classification}")
