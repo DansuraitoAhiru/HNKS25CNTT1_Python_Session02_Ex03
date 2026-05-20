@@ -1,6 +1,6 @@
 # input
-patient_name = input("Nhập họ và tên bệnh nhân: ")     # nhập tên bệnh nhân
-age = int(input("Nhập tuổi của bệnh nhân: "))          # nhập tuổi bênh nhân
+patient_name = input("Nhập họ và tên bệnh nhân: ")     # nhập tên bệnh nhân kiểu string
+age = int(input("Nhập tuổi của bệnh nhân: "))          # nhập tuổi bênh nhân kiểu int
 
 # dùng if lồng để kiểm tra điều kiện
 if patient_name == "" or patient_name == " ":                 # ktra xem tên có rỗng ko  
